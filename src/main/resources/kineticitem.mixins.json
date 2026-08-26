@@ -1,0 +1,16 @@
+{
+  "minVersion": "0.8",
+  "package": "dev.xyat.kineticitem.item.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "kineticitem.mixins.refmap.json",
+  "mixins": [
+    "ItemManagementMixins$SlotMixin",
+    "ItemManagementMixins$ItemStackMixin",
+    "ItemManagementMixins$SimpleJsonResourceReloadListenerMixin",
+    "ItemProtectionMixins$ItemEntityTweaks",
+    "ItemProtectionMixins$EntityTweaks"
+  ],
+  "client": [
+    "client.CreativeModeTabMixin"
+  ]
+}

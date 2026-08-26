@@ -1,0 +1,1 @@
+dev.xyat.kineticitem.kubejs.KineticItemKubeJSPlugin
